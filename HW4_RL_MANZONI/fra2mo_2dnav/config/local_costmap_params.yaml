@@ -1,0 +1,10 @@
+local_costmap:
+  global_frame: map
+  robot_base_frame: base_footprint
+  update_frequency: 5.0 # 6.0 # For 3b point we modified the update_frequency at 6.0 value
+  publish_frequency: 10.0 # 11.0 # For 3b point we modified the publish_frequency at 11.0 value 
+  static_map: false
+  rolling_window: true
+  width: 7.0 # 15.0 # For 3b point we modified the width at 15.0 value
+  height: 7.0 # 15.0 # For 3b point we modified the height at 15.0 value
+  resolution: 0.03 
