@@ -1,9 +1,0 @@
-publish_voxel_map: false 
-transform_tolerance: 0.5
-meter_scoring: true
-obstacle_range: 7.0 # maximum range sensor reading that will result in an obstacle being put into the costmap # 8.0 # For 3b point we modified the obstacle_range at 8.0 value
-raytrace_range: 8.0 # range to which we will raytrace freespace given a sensor reading # 9.0 # For 3b point we modified the raytarce_range at 9.0 value
-footprint: [[0.15, -0.15], # 0.20, -0.20 # For 3b point we modified the first raw at 0.20, -0.20 value
-            [-0.15, -0.15], # -0.20, -0.20 # For 3b point we modified the first raw at -0.20, -0.20 value
-            [-0.15, 0.20], # -0.20, 0.25 # For 3b point we modified the first raw at -0.20, 0.25 value
-            [0.15, 0.15]] # 0.20, 0.20 # For 3b point we modified the first raw at 0.20, 0.20 value
